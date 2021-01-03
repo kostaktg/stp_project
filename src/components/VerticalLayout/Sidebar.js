@@ -11,11 +11,8 @@ import SidebarContent from "./SidebarContent";
 
 
 class Sidebar extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        };
-    }
+
+    state = {};
 
     render() {
         return (

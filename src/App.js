@@ -60,7 +60,6 @@ class App extends Component {
 		}
 		return layoutCls;
 	};
-
 	render() {
 		const Layout = this.getLayout();
 

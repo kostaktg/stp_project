@@ -24,10 +24,10 @@ class CardBox extends Component {
                                                     </div>
         
                                                     <div className="d-inline-flex team mb-0">
-                                                        <div className="mr-3 align-self-center">
+                                                        {/* <div className="mr-3 align-self-center">
                                                             Team :
-                                                        </div>
-                                                        {
+                                                        </div> */}
+                                                        {/* {
                                                             this.props.data['team'].map((member, key) =>
                                                                 <div className="team-member" key={key}>
                                                                     <Link to="# " className="team-member d-inline-block" id={"memberTooltip"+member.id} >
@@ -46,7 +46,7 @@ class CardBox extends Component {
                                                                     </UncontrolledTooltip>
                                                                 </div>
                                                             )
-                                                        }
+                                                        } */}
                                                         
                                                     </div>
     

@@ -19,54 +19,54 @@ class Calendar extends Component {
         super(props);
         this.state={
             breadcrumbItems : [
-                { title : "Nazox", link : "#" },
-                { title : "Calendar", link : "#" },
+                { title : "Календар", link : "#" },
+                { title : "Организатор", link : "#" },
             ],
             calendarWeekends: true,
             calendarEvents: [
                 {
-                    title: 'All Day Event',
+                    title: 'Събитие за цял ден',
                     start: new Date().setDate(1),
                 },
                 {
                     id: 999,
-                    title: 'Long Event',
+                    title: 'Събитие',
                     start: new Date().setDate(17),
                     end: new Date().setDate(19),
                     allDay: false,
                 },
                 {
                     id: 999,
-                    title: 'Repeating Event',
+                    title: 'Събитие',
                     start: new Date().setDate(19),
                     allDay: false,
                 },
                 {
                     id: 999,
-                    title: 'Meeting',
+                    title: 'Среща',
                     start: new Date().setDate(22),
                     allDay: false,
                 },
                 {
                     id: 999,
-                    title: 'Lunch',
+                    title: 'Обяд',
                     start: new Date().setDate(22),
                     allDay: false,
                 },
                 {
-                    title: 'Birthday Party',
+                    title: 'Празненство',
                     start: new Date().setDate(23),
                     allDay: false,
                 },
                 {
                     id: 999,
-                    title: 'Repeating Event',
+                    title: 'Събитие',
                     start: new Date().setDate(26),
                     allDay: false,
                 },
                 {
                     id: 999,
-                    title: 'Click for Google',
+                    title: 'Събитие',
                     start: new Date().setDate(28),
                     allDay: false,
                 },
@@ -102,7 +102,7 @@ class Calendar extends Component {
                 <div className="page-content">
                     <Container fluid>
 
-                    <Breadcrumbs title="Calendar" breadcrumbItems={this.state.breadcrumbItems} />
+                    <Breadcrumbs title="Календар" breadcrumbItems={this.state.breadcrumbItems} />
                         
                         <Row>
                             <Col xs={12}>

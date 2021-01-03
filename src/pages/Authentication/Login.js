@@ -55,11 +55,11 @@ class Login extends Component {
                                         <div>
                                             <div className="text-center">
                                                 <div>
-                                                    <Link to="/" className="logo"><img src={logodark} height="20" alt="logo"/></Link>
+                                                    <Link to="/" className="logo"><img src={logodark} height="200" alt="logo"/></Link>
                                                 </div>
     
-                                                <h4 className="font-size-18 mt-4">Welcome Back !</h4>
-                                                <p className="text-muted">Sign in to continue to Nazox.</p>
+                                                <h4 className="font-size-18 mt-4">Добре дошли !</h4>
+                                                <p className="text-muted">Впишете се за да влезете в системата на INFINITY21.</p>
                                             </div>
 
                                            
@@ -70,34 +70,34 @@ class Login extends Component {
                     
                                                     <FormGroup className="auth-form-group-custom mb-4">
                                                         <i className="ri-user-2-line auti-custom-input-icon"></i>
-                                                        <Label htmlFor="username">Username</Label>
+                                                        <Label htmlFor="username">Потребител</Label>
                                                         <AvField name="username" value={this.state.username} type="text" className="form-control" id="username" validate={{email: true, required: true}} placeholder="Enter username"/>
                                                     </FormGroup>
                             
                                                     <FormGroup className="auth-form-group-custom mb-4">
                                                         <i className="ri-lock-2-line auti-custom-input-icon"></i>
-                                                        <Label htmlFor="userpassword">Password</Label>
+                                                        <Label htmlFor="userpassword">Парола</Label>
                                                         <AvField name="password" value={this.state.password} type="password" className="form-control" id="userpassword" placeholder="Enter password"/>
                                                     </FormGroup>
                             
                                                     <div className="custom-control custom-checkbox">
                                                         <Input type="checkbox" className="custom-control-input" id="customControlInline"/>
-                                                        <Label className="custom-control-label" htmlFor="customControlInline">Remember me</Label>
+                                                        <Label className="custom-control-label" htmlFor="customControlInline">Запомни ме</Label>
                                                     </div>
 
                                                     <div className="mt-4 text-center">
-                                                        <Button color="primary" className="w-md waves-effect waves-light" type="submit">Log In</Button>
+                                                        <Button color="primary" className="w-md waves-effect waves-light" type="submit">Влез</Button>
                                                     </div>
 
                                                     <div className="mt-4 text-center">
-                                                        <Link to="/forgot-password" className="text-muted"><i className="mdi mdi-lock mr-1"></i> Forgot your password?</Link>
+                                                        <Link to="/forgot-password" className="text-muted"><i className="mdi mdi-lock mr-1"></i> Забравена парола?</Link>
                                                     </div>
                                                 </AvForm>
                                             </div>
 
                                             <div className="mt-5 text-center">
-                                                <p>Don't have an account ? <Link to="/register" className="font-weight-medium text-primary"> Register </Link> </p>
-                                                <p>© 2020 Nazox. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesdesign</p>
+                                                <p>Нямаш акаунт ? <Link to="/register" className="font-weight-medium text-primary"> Регистрация </Link> </p>
+                                                <p>© 2020 Infinity21. Създадена от <i className="mdi mdi-heart text-danger"></i> Костадин Гювийски</p>
                                             </div>
                                         </div>
 
